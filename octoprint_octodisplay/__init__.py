@@ -6,3 +6,5 @@ import octoprint.plugin
 class OctoDisplayPlugin(octoprint.plugin.StartupPlugin):
     def on_after_startup(self):
         self._logger.info("Hello World! - OctoDisplay")
+
+__plugin_implementations__ = [OctoDisplayPlugin()]
